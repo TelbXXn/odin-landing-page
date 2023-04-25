@@ -1,9 +1,15 @@
 body {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+   
+
 }
 
 /* Section One */
 .one {
+    flex: 1;
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
@@ -12,6 +18,13 @@ body {
 .home {
     font-size: 24px;
     color: #F9FAF8;
+    margin-right: auto; 
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bighead {
@@ -20,14 +33,61 @@ body {
     font-weight: extra-bold;
 }
 
+ul {
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+}
+
+.topcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* Section Two */
+.two {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slot {
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    border: 200px;
+    border-color: #3882F6;
+    
+}
 /* Section Three */
 .three {
+    flex: 1;
+    display: flex;
     background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
 }
 /* Section Four */
+.four {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
 /* Foot */
 .footer {
+    
+    flex: 1;
     background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
