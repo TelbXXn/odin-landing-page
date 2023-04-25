@@ -52,16 +52,30 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.pics {
+    display: flex;
+    gap: 32px;
+    margin-top: 16px;
 }
 
 .slot {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 200px;
 }
 
-.card{
-    border: 200px;
-    border-color: #3882F6;
+
+.card {
+    margin: 1px;
+    border-radius: 25px;
+    height: 150px;
+    border: 1px solid #3882F6;
+
     
 }
 /* Section Three */
