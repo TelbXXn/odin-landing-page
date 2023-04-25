@@ -1,3 +1,33 @@
 body {
     height: 100vh;
 }
+
+/* Section One */
+.one {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.home {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.bighead {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+}
+
+
+/* Section Two */
+/* Section Three */
+.three {
+    background-color: #E5E7EB;
+}
+/* Section Four */
+/* Foot */
+.footer {
+    background-color: #1F2937;
+}
