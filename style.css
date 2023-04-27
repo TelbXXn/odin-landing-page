@@ -144,7 +144,7 @@ ul {
 }
 /* Section Three */
 .three {
-    padding: 8rem 15rem 8rem 15rem;
+    padding: 8rem 20rem 8rem 20rem;
     display: flex;
     background-color: #E5E7EB;
     justify-content: center;
@@ -174,6 +174,41 @@ ul {
     align-items: center;
 
 } 
+
+.buttonfour {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 600px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    gap: 48px;
+}
+
+.text {
+    flex: 7;
+}
+
+.fourf {
+    flex: 1;
+    color: #F9FAF8;
+    background: none;
+    border: 1px solid #F9FAF8;
+    font-weight: 800;
+}
+
+.textmain {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.texttwo {
+    color: #E5E7EB;
+}
 
 /* Foot */
 .footer {
